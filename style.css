@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+body {
+  font-family: "Montserrat";
+  color: #424242
+}
+.modo-oscuro {
+  color:#fff;
+  background-color: #424242;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seccion {
+  height: 100vh;
+/*border: 5px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-principal {
+   font-size: 140px;
+   margin: 0;
+}
+
+.titulo-principal span {
+   color: #e91e63;
+}
+
+.titulo-secundario {
+  font-size: 77px;
+  margin: 0;
+}
+
+.texto-principal {
+  font-size: 36px;
+  width: 1200px;
+}
+
+.texto-secundario {
+   font-size: 140px;
+   margin: 0;
+   width: 1200px;
+  }
+
+.seccion-secundaria {
+   background-color: #fafafa;
+}
+
+.contenedor-imagenes {
+   display: flex;
+}
+
+.contenedor-imagenes img {
+   width: 90px;
+   margin: 10px;
+}                                   
+
+.img {
+   width: 90px;
+   margin: 10px;
+}
+
+img {
+    transition: 0.2s
+}
+  
+img:hover {
+    transform: scale(1.2)
+}
+
+.bye {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+}
+
+#byebye p {
+    text-align: center;
+}
+
+  
+  /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+body {
+  font-family: "Montserrat";
+  color: #424242
+}
+
+.modo-oscuro {
+  color: #fff;
+  background-color: #424242;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seccion {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-principal {
+  font-size: 140px;
+  margin: 0;
+}
+
+.titulo-principal span {
+  color: #e91e63;
+}
+
+.texto-principal {
+  font-size: 36px;
+  width: 700px;
+}
+
+.texto-secundario {
+  font-size: 28px;
+  width: 700px;
+}
+
+.titulo-secundario {
+  font-size: 77px;
+  margin: 0;
+}
+
+.seccion-secundaria {
+  background-color: #fafafa;
+}
+
+.contenedor-imagenes {
+  display: flex;
+}
+
+.contenedor-imagenes img {
+  width: 90px;
+  margin: 10px;
+}
+
+img {
+  transition: 0.2s
+}
+
+img:hover {
+  transform: scale(1.2)
+}
+
+/* Por falta de tiempo no pudimos hacer que nuestra web sea responsiva, es decir, que se pueda ver en un celular o una tablet. Asi como esta, solo se ve bien desde una computadora. 
+En los slides que les enviamos, tambien tendran la manera de hacer una web responsive. Se llaman "media queries" y se ponen en CSS. Son reglas de CSS que solo se van a aplicar en dispositivos que tengan un tamaño en especifico, que se escribe en pixeles. 
+
+Por ejemplo:
+
+media (max-width: 600px) {
+
+}
+
+Eso significa que las reglas solo se aplicaran en dispositivos que midan menos de 600px (un celular en general tiene entre 320 y 600px)
+
+Las reglas de CSS para esos dispositivos se escriben adentro de la media query, asi:
+
+media (max-width: 600px) {
+  .titulo-principal {
+  color: red
+  }
+}
+
+Si escribimos eso de arriba, vamos a ver que en celulares nuestro titulo principal se ve de color rojo. 
+
+Para que nuestra web se vea bien en celulares, tendriamos que:
+- Achicar la letra de los titulos y los textos. 
+- Corregir el ancho que le dimos a los textos (les dimos 700px de ancho, y eso es mas ancho que la mayoria de los celulares!)
+- Achicar las imagenes. 
+*/
